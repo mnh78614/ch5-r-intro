@@ -80,3 +80,28 @@ round function: round(5/7) # Will round to nearest .01
 ```
 
 - May **return** a value (the "output"). This value must be _stored in a variable_ for the machine to use later.
+
+## Writing functions
+By writing our own functions we can:
+- Easily reuse algorithms
+- Debug one piece of a program at a time
+- Abstract an algorithm to focus on the bigger picture
+
+General Syntax:
+```
+FunctionName <- function(name) {
+
+  # body: instructions (code) go here
+
+}
+
+SayHello <- function(name) {
+
+  greeting <- paste("hello", name)
+
+  print(greeting)
+  
+}
+
+SayHello("Muhammad")
+```
